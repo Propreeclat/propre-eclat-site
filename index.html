@@ -3,8 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Propre / Éclat – Conciergerie, nettoyage professionnel et entretien d'immeubles à Lausanne et environs.">
-  <title>Propre / Éclat | Nettoyage & conciergerie</title>
+  <meta name="description" content="Propre / Éclat – Conciergerie, nettoyage professionnel, vitres, fins de bail et entretien à Lausanne et environs.">
+  <meta name="theme-color" content="#08182b">
+  <title>Propre / Éclat | Nettoyage & conciergerie à Lausanne</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -19,13 +20,16 @@
         <span>Propre / Éclat</span>
       </a>
 
-      <button class="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false">☰</button>
+      <button class="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
 
       <nav class="nav-links" aria-label="Navigation principale">
         <a href="#services">Services</a>
+        <a href="#avantages">Nos engagements</a>
         <a href="#entreprise">L'entreprise</a>
-        <a href="#zone">Zone d'intervention</a>
-        <a class="nav-cta" href="#contact">Demander un devis</a>
+        <a href="#zone">Zone</a>
+        <a class="nav-cta" href="#contact">Devis gratuit</a>
       </nav>
     </div>
   </header>
@@ -33,159 +37,139 @@
   <main>
     <section class="hero" id="accueil">
       <div class="container hero-grid">
-        <div class="hero-content">
+        <div class="hero-content reveal">
           <p class="eyebrow">Nettoyage professionnel • Conciergerie • Entretien</p>
           <h1>Des espaces propres, soignés et bien entretenus.</h1>
           <p class="hero-text">
-            Propre / Éclat accompagne les régies, entreprises et particuliers
-            pour l'entretien régulier, la conciergerie et les nettoyages ponctuels
-            à Lausanne et dans les environs.
+            Propre / Éclat accompagne les régies, entreprises et particuliers pour
+            l'entretien régulier, la conciergerie et les nettoyages ponctuels à Lausanne et environs.
           </p>
           <div class="hero-actions">
             <a class="button primary" href="#contact">Demander un devis gratuit</a>
-            <a class="button secondary" href="#services">Découvrir nos services</a>
+            <a class="button secondary" href="tel:+41767157076">Appeler maintenant</a>
           </div>
-          <div class="hero-points">
+          <div class="hero-points" aria-label="Nos principaux engagements">
             <span>✓ Entreprise locale</span>
-            <span>✓ Intervention soignée</span>
+            <span>✓ Travail soigné</span>
             <span>✓ Devis clair</span>
           </div>
         </div>
 
-        <div class="hero-card">
+        <div class="hero-card reveal">
           <img class="hero-logo" src="logo-propre-eclat.png" alt="" aria-hidden="true">
-          <p class="card-label">Pour les professionnels et les particuliers</p>
+          <p class="card-label">Professionnels & particuliers</p>
           <h2>Un interlocuteur unique pour vos besoins d'entretien.</h2>
           <ul>
             <li>Immeubles et parties communes</li>
             <li>Bureaux et commerces</li>
-            <li>Fin de bail et remise en état</li>
+            <li>Fins de bail et remises en état</li>
             <li>Vitres et nettoyage après chantier</li>
             <li>Petits travaux extérieurs</li>
           </ul>
+          <a class="card-contact" href="mailto:propreclat@gmail.com">propreclat@gmail.com →</a>
         </div>
+      </div>
+    </section>
+
+    <section class="trust-strip" aria-label="Informations pratiques">
+      <div class="container trust-grid">
+        <div><strong>Lausanne</strong><span>et communes environnantes</span></div>
+        <div><strong>Prestations flexibles</strong><span>régulières ou ponctuelles</span></div>
+        <div><strong>Réponse directe</strong><span>sans intermédiaire</span></div>
       </div>
     </section>
 
     <section class="section" id="services">
       <div class="container">
-        <div class="section-heading">
+        <div class="section-heading reveal">
           <p class="eyebrow">Nos services</p>
           <h2>Une solution complète pour garder vos espaces impeccables.</h2>
           <p>Des prestations régulières ou ponctuelles, adaptées à chaque bâtiment et à chaque client.</p>
         </div>
 
         <div class="services-grid">
-          <article class="service-card">
-            <div class="icon">🏢</div>
-            <h3>Conciergerie d'immeuble</h3>
-            <p>Entretien des entrées, escaliers, ascenseurs, locaux communs et abords.</p>
-          </article>
-          <article class="service-card">
-            <div class="icon">🧹</div>
-            <h3>Bureaux et commerces</h3>
-            <p>Nettoyage régulier des espaces professionnels selon vos horaires et besoins.</p>
-          </article>
-          <article class="service-card">
-            <div class="icon">🔑</div>
-            <h3>Fin de bail</h3>
-            <p>Nettoyage complet et remise en état avant restitution du logement.</p>
-          </article>
-          <article class="service-card">
-            <div class="icon">🪟</div>
-            <h3>Vitres</h3>
-            <p>Nettoyage des vitrages, cadres et surfaces accessibles.</p>
-          </article>
-          <article class="service-card">
-            <div class="icon">🏗️</div>
-            <h3>Après chantier</h3>
-            <p>Élimination des poussières et résidus après rénovation ou construction.</p>
-          </article>
-          <article class="service-card">
-            <div class="icon">🌿</div>
-            <h3>Entretien extérieur</h3>
-            <p>Désherbage, taille légère, soufflage des feuilles et petite tonte.</p>
-          </article>
+          <article class="service-card reveal"><div class="icon">🏢</div><h3>Conciergerie d'immeuble</h3><p>Entrées, escaliers, ascenseurs, locaux communs et abords.</p></article>
+          <article class="service-card reveal"><div class="icon">🧹</div><h3>Bureaux et commerces</h3><p>Entretien régulier selon vos horaires, votre activité et vos besoins.</p></article>
+          <article class="service-card reveal"><div class="icon">🔑</div><h3>Fin de bail</h3><p>Nettoyage complet et remise en état avant restitution du logement.</p></article>
+          <article class="service-card reveal"><div class="icon">🪟</div><h3>Nettoyage de vitres</h3><p>Vitrages, cadres et surfaces accessibles, avec une finition soignée.</p></article>
+          <article class="service-card reveal"><div class="icon">🏗️</div><h3>Après chantier</h3><p>Élimination des poussières et résidus après rénovation ou construction.</p></article>
+          <article class="service-card reveal"><div class="icon">🌿</div><h3>Entretien extérieur</h3><p>Désherbage, taille légère, feuilles et petite tonte selon les besoins.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section dark-section" id="avantages">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Nos engagements</p>
+          <h2>Une prestation simple à organiser et sérieuse dans son exécution.</h2>
+        </div>
+        <div class="benefits-grid">
+          <article class="benefit reveal"><span>01</span><h3>Un devis adapté</h3><p>Chaque demande est analysée selon le lieu, la fréquence et le volume réel.</p></article>
+          <article class="benefit reveal"><span>02</span><h3>Un suivi direct</h3><p>Vous échangez directement avec l'équipe qui organise et réalise les interventions.</p></article>
+          <article class="benefit reveal"><span>03</span><h3>Un travail régulier</h3><p>Nous accordons une attention particulière aux détails, à la ponctualité et à la constance.</p></article>
+          <article class="benefit reveal"><span>04</span><h3>Une offre polyvalente</h3><p>Un seul contact pour l'intérieur, les vitres, les remises en état et les petits extérieurs.</p></article>
         </div>
       </div>
     </section>
 
     <section class="section soft" id="entreprise">
       <div class="container split">
-        <div>
+        <div class="reveal">
           <p class="eyebrow">Propre / Éclat</p>
           <h2>Une entreprise de proximité, sérieuse et disponible.</h2>
         </div>
-        <div>
-          <p>
-            Nous mettons l'accent sur la qualité du travail, la régularité et une communication simple.
-            Chaque prestation est organisée selon les besoins réels du client, sans formule inutile.
-          </p>
-          <p>
-            Notre équipe intervient avec soin pour préserver la propreté, l'image et le confort des lieux.
-          </p>
+        <div class="reveal">
+          <p>Nous mettons l'accent sur la qualité du travail, la régularité et une communication simple. Chaque prestation est organisée selon les besoins réels du client.</p>
+          <p>Notre équipe intervient avec soin pour préserver la propreté, l'image et le confort des lieux.</p>
+          <a class="text-link" href="#contact">Présentez-nous votre besoin →</a>
         </div>
       </div>
     </section>
 
     <section class="section" id="zone">
-      <div class="container zone-box">
+      <div class="container zone-box reveal">
         <div>
           <p class="eyebrow">Zone d'intervention</p>
           <h2>Lausanne et environs</h2>
-          <p>
-            Nous intervenons principalement à Lausanne et dans les communes environnantes.
-            Pour une demande située plus loin, contactez-nous afin de vérifier nos disponibilités.
-          </p>
+          <p>Nous intervenons principalement à Lausanne et dans les communes environnantes. Pour une demande plus éloignée, contactez-nous afin de vérifier nos disponibilités.</p>
         </div>
-        <a class="button primary" href="#contact">Nous contacter</a>
+        <a class="button light" href="#contact">Vérifier une disponibilité</a>
       </div>
     </section>
 
     <section class="section contact-section" id="contact">
       <div class="container contact-grid">
-        <div>
+        <div class="reveal">
           <p class="eyebrow">Contact</p>
           <h2>Parlez-nous de votre besoin.</h2>
-          <p>
-            Décrivez le lieu, la fréquence souhaitée et le type de prestation.
-            Nous vous répondrons avec une proposition claire.
-          </p>
-          <div class="contact-details">
-            <p><strong>Téléphone :</strong> <a href="tel:+41767157076">076 715 70 76</a></p>
-            <p><strong>E-mail :</strong> <a href="mailto:propreclat@gmail.com">propreclat@gmail.com</a></p>
-            <p><strong>Région :</strong> Lausanne, Suisse</p>
+          <p>Décrivez le lieu, la fréquence souhaitée et le type de prestation. Nous vous répondrons avec une proposition claire.</p>
+          <div class="contact-cards">
+            <a href="tel:+41767157076"><span>📞</span><div><small>Téléphone</small><strong>076 715 70 76</strong></div></a>
+            <a href="mailto:propreclat@gmail.com"><span>✉️</span><div><small>E-mail</small><strong>propreclat@gmail.com</strong></div></a>
+            <div><span>📍</span><div><small>Région</small><strong>Lausanne, Suisse</strong></div></div>
           </div>
         </div>
 
-        <form class="contact-form" action="https://formsubmit.co/propreclat@gmail.com" method="POST">
+        <form class="contact-form reveal" action="https://formsubmit.co/propreclat@gmail.com" method="POST">
           <input type="hidden" name="_subject" value="Nouvelle demande depuis le site Propre / Éclat">
           <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_template" value="table">
 
-          <label for="name">Nom / entreprise</label>
-          <input id="name" name="name" type="text" required>
-
+          <div class="form-row">
+            <div><label for="name">Nom / entreprise</label><input id="name" name="name" type="text" autocomplete="name" required></div>
+            <div><label for="phone">Téléphone</label><input id="phone" name="phone" type="tel" autocomplete="tel"></div>
+          </div>
           <label for="email">E-mail</label>
-          <input id="email" name="email" type="email" required>
-
-          <label for="phone">Téléphone</label>
-          <input id="phone" name="phone" type="tel">
-
+          <input id="email" name="email" type="email" autocomplete="email" required>
           <label for="service">Service souhaité</label>
           <select id="service" name="service">
-            <option>Conciergerie d'immeuble</option>
-            <option>Bureaux / commerces</option>
-            <option>Fin de bail</option>
-            <option>Vitres</option>
-            <option>Après chantier</option>
-            <option>Entretien extérieur</option>
-            <option>Autre demande</option>
+            <option>Conciergerie d'immeuble</option><option>Bureaux / commerces</option><option>Fin de bail</option><option>Vitres</option><option>Après chantier</option><option>Entretien extérieur</option><option>Autre demande</option>
           </select>
-
           <label for="message">Votre demande</label>
-          <textarea id="message" name="message" rows="5" required></textarea>
-
-          <button class="button primary full" type="submit">Envoyer la demande</button>
+          <textarea id="message" name="message" rows="5" placeholder="Lieu, surface approximative, fréquence souhaitée…" required></textarea>
+          <button class="button primary full" type="submit">Envoyer ma demande</button>
+          <p class="form-note">Devis sans engagement. Vos informations servent uniquement à répondre à votre demande.</p>
         </form>
       </div>
     </section>
@@ -193,10 +177,16 @@
 
   <footer class="footer">
     <div class="container footer-inner">
-      <p>© 2026 Propre / Éclat. Tous droits réservés.</p>
-      <a href="mentions-legales.html">Mentions légales</a>
+      <div class="footer-brand"><img src="logo-propre-eclat.png" alt=""><div><strong>Propre / Éclat</strong><span>Nettoyage & conciergerie</span></div></div>
+      <div class="footer-links"><a href="#services">Services</a><a href="#contact">Contact</a><a href="mentions-legales.html">Mentions légales</a></div>
+      <p>© 2026 Propre / Éclat</p>
     </div>
   </footer>
+
+  <div class="mobile-actions" aria-label="Contact rapide">
+    <a class="call" href="tel:+41767157076" aria-label="Appeler Propre Éclat">📞 <span>Appeler</span></a>
+    <a class="whatsapp" href="https://wa.me/41767157076?text=Bonjour%20Propre%20%2F%20%C3%89clat%2C%20je%20souhaite%20demander%20un%20devis." target="_blank" rel="noopener" aria-label="Contacter Propre Éclat sur WhatsApp">WhatsApp</a>
+  </div>
 
   <script src="script.js"></script>
 </body>
